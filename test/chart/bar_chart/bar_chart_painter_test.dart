@@ -1564,7 +1564,7 @@ void main() {
               color: const Color(0x00000000),
               borderRadius: const BorderRadius.all(Radius.circular(0.1)),
               rodStackItems: [
-                BarChartRodStackItem(0, 5, const Color(0xFF0F0F0F))
+                BarChartRodStackItem(0, 5, const Color(0xFF0F0F0F)),
               ],
             ),
           ],
@@ -2047,7 +2047,7 @@ void main() {
               BarChartRodData(fromY: 1, toY: 10),
               BarChartRodData(fromY: 2, toY: 10),
             ],
-          )
+          ),
         ],
         titlesData: const FlTitlesData(show: false),
         extraLinesData: ExtraLinesData(

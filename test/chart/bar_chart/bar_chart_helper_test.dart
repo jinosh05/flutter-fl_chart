@@ -41,7 +41,7 @@ void main() {
             BarChartRodData(toY: 10),
             BarChartRodData(toY: 5),
           ],
-        )
+        ),
       ];
       final result = BarChartHelper.calculateMaxAxisValues(barGroups);
       expect(result.minY, -40);
